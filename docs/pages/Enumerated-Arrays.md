@@ -3,7 +3,7 @@ title: Enumerated Arrays
 layout: default
 navigation_weight: 9
 ---
-# Enumerated-Arrays
+# Enumerated Arrays
 
 Place the introducing line of text ie.) the 'tagline' here ...
 
