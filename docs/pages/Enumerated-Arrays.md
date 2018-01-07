@@ -19,7 +19,7 @@ Place the introducing line of text ie.) the 'tagline' here ...
 
 ```liquid
 {% raw %}
-Place code here
+Enjoy the successful output!
 {% endraw %}
 ```
 
