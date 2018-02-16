@@ -1,22 +1,20 @@
 ---
 title: Home Page
 layout: default
+excerpt: Typescript tags and Typescript statements mimic underlying Javascript methods ...
+version: Index Template md Dtd 02-10-18
 navigation_weight: 1
+categories: template
 ---
-# TSC Lessons Project Home Page
+{% comment %}{% raw %}{% include page-banner-blank.md %}{% endraw %}{% endcomment %}
 
-{{ site.description }}
+# Typescript Lessons Project Home Page
 
-## Table O Contents
+{{ page.excerpt }}
 
-![MMI™ Flammarion Logo Badge](assets/img/svg/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-543-x-543.svg){:width="120px"}
+{% include toc.md %}
 
-- TOC
-{:toc}
-
-**Note**. The above **Live** rendition of the **MMI™ Flammarion Logo Badge** ( if visible ) is an `( .svg )` image file set to the dimensions of 120.00 px X 120.00 px.
-
-## Issue Dtd 12-31-17
+## Issue
 
 The **Issue** of a successful legal argument is prefaced by a concise, to the point coin flip.
 
@@ -63,3 +61,5 @@ Expound the solution ...
 ### External Sources
 
 - The [Project Source Links](https://mminail.github.io/TSC/Source-TSC-Links.htm){:title="Click to Visit the Source Links page of the TSC Lessons Project at GitHub pages"}{:target="_blank"} page of the TSC Lessons Project. Published by © 2000 - 2018 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+
+**Note**. This page crafted with {{ page.version }}.
