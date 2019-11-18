@@ -1,15 +1,20 @@
 ---
 title: ES6 Maps
 layout: default
+excerpt: Place the introducing line of text ie.) the 'lead' here ...
+description: Place the intro paragraph ie.) the 'synopsis' here ...
+repo: Typescript-Lessons-Project 
+ver_date: 11-17-19
 navigation_weight: 8
+categories: page
 ---
-# ES6 Maps
+{% include toc.md %}
 
-{{ site.tagline }}
+{% comment %}Place content here ...{% endcomment %}
 
-{% include toc-flammarion.md %}
+## First Subtitle
 
-## Subtitle Begin Template Dtd 12-31-17
+More to come ...
 
 Place the introducing line of text ie.) the 'tagline' here ...
 
@@ -17,16 +22,14 @@ Place the introducing line of text ie.) the 'tagline' here ...
 
 Place the introducing line of text ie.) the 'tagline' here ...
 
+**Note**. The above synopsis was derived from an article written by Blank [[2](#BLANK){:.red}].
+
+### Raw Code Block
+
 ```liquid
 {% raw %}
 Enjoy the successful output!
 {% endraw %}
 ```
 
-{% include brackets-ide.md %}
-
-{% include sources-and-uses.md %}
-
-### External Sources
-
-- The [Project Source Links](https://mminail.github.io/TSC/Source-TSC-Links.htm){:title='Click to Visit the Source Links page of the TSC Lessons Project at GitHub pages'}{:target='_blank'} page of the TSC Lessons Project. Published by © 2000 - 2018 [Mminail.github.io](https://mminail.github.io/){:title='Click to Visit the Home Page of the Concept Library at the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation'}{:target='_blank'}.
+{% include patreon-link.md %}

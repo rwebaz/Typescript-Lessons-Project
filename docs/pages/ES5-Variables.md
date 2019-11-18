@@ -1,15 +1,13 @@
 ---
 title: ES5 Variables
 layout: default
-excerpt: Place the introducing line of text ie.) the 'lead' here ...
-version: Page Template md Dtd 02-15-18
+excerpt: The need to contain the scope of the variable(s) declared in `ES6` is a top priority ...
+description: Place the intro paragraph ie.) the 'synopsis' here ...
+repo: Typescript-Lessons-Project 
+ver_date: 11-17-19
 navigation_weight: 8
-categories: es5
+categories: page
 ---
-# {{ page.title }}
-
-{{ page.excerpt }}
-
 {% include toc.md %}
 
 ## ES5 Var
@@ -40,11 +38,17 @@ Hence, the need to contain the scope of the variables declared in ES6.
 
 More to come ...
 
+Place the introducing line of text ie.) the 'tagline' here ...
+
 ## Import Code
 
 More to come ...
 
+Place the introducing line of text ie.) the 'tagline' here ...
+
 ## Last Subtitle
+
+Place the introducing line of text ie.) the 'tagline' here ...
 
 **Note**. The above synopsis was derived from an article written by Blank [[2](#BLANK){:.red}].
 
@@ -56,12 +60,4 @@ Enjoy the successful output!
 {% endraw %}
 ```
 
-{% include brackets-ide.md %}
-
-{% include sources-and-uses.md %}
-
-### External Sources
-
-- {:#SOURCELINKS}The [Project Source Links](https://mminail.github.io/Typescript/Source-Typescript-Links.htm){:title='Click to Visit the Source Links page of the Typescript Lessons Project at Concepts Library'}{:target='_blank'} page of the Typescript Lessons Project at Concepts Library. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title='Click to Visit the Home Page of the Concepts Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation'}{:target='_blank'}.
-
-**Note**. This page crafted with {{ page.version }}.
+{% include patreon-link.md %}.

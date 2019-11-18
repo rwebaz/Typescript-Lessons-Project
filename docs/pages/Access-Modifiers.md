@@ -1,15 +1,18 @@
 ---
 title: Access Modifiers
 layout: default
-navigation_weight: 9
+excerpt: Modifiers that define how an interaction may access the properties and methods of a `class` are called `Access Modifiers` in Typescript ...
+description: By default, all properties of a `class` and all methods of a `class` are exposed publicly in Typescript unless otherwise modifed by an `Access Modifier` in Typescript.
+repo: Typescript-Lessons-Project 
+ver_date: 11-17-19
+navigation_weight: 8
+categories: page
 ---
-# Access Modifiers
-
-Modifiers that define how an interaction may access the properties and methods of a Class are called *Access Modifiers*  in **Typescript**.
-
-{% include toc-flammarion.md %}
+{% include toc.md %}
 
 ## Public O Private
+
+{{ page.description}}
 
 By default, all properties of a Class and all methods of a Class are exposed publicly.
 
@@ -74,16 +77,14 @@ private readonly var y = x.charAt(6);
 
 Place the introducing line of text ie.) the 'tagline' here ...
 
+**Note**. The above synopsis was derived from an article written by Blank [[2](#BLANK){:.red}].
+
+### Raw Code Block
+
 ```liquid
 {% raw %}
 Enjoy the successful output!
 {% endraw %}
 ```
 
-{% include sources-and-uses.md %}
-
-### External Sources
-
-- The [James Henry dot blog](https://twitter.com/MrJamesHenry){:title="Click to Visit the Twitter profile of Mr James Henry"}{:target="_blank"}. Published by © 2017 [Jameshenry.blog](https://jameshenry.blog/){:title="Click to Visit tthe James Henry dot blog"}{:target="_blank"}.
-
-- The [Project Source Links](https://mminail.github.io/TSC/Source-TSC-Links.htm){:title="Click to Visit the Source Links page of the TSC Lessons Project at GitHub pages"}{:target="_blank"} page of the TSC Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+{% include patreon-link.md %}
