@@ -2,15 +2,17 @@
 title: ES5 Variables
 layout: default
 excerpt: The need to contain the scope of the variable(s) declared in `ES6` is a top priority ...
-description: Place the intro paragraph ie.) the 'synopsis' here ...
+hint: Place the intro paragraph ie.) the 'synopsis' here ...
 repo: Typescript-Lessons-Project 
-ver_date: 11-17-19
+ver_date: 11-20-19
 navigation_weight: 8
 categories: page
 ---
 {% include toc.md %}
 
 ## ES5 Var
+
+> **Hint**. {{ page.hint }}
 
 In the past ES5 specification, even if a variable was assigned inside of a code block, for example:
 
@@ -48,16 +50,14 @@ Place the introducing line of text ie.) the 'tagline' here ...
 
 ## Last Subtitle
 
-Place the introducing line of text ie.) the 'tagline' here ...
+More to come ...
 
-**Note**. The above synopsis was derived from an article written by Blank [[2](#BLANK){:.red}].
+***
 
-### Raw Code Block
+**Note**. The above synopsis was derived from an article written by Blank Author [[1](#BLANKAUTHOR){:.red}].
 
-```liquid
-{% raw %}
-Enjoy the successful output!
-{% endraw %}
-```
+1. {:#BLANKAUTHOR}[A Narrative of Psychology by Blank Author, Jan #1999](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:target="_blank"}
 
-{% include patreon-link.md %}.
+***
+
+{% include patreon-link.md %}

@@ -2,9 +2,9 @@
 title: Access Modifiers
 layout: default
 excerpt: Modifiers that define how an interaction may access the properties and methods of a `class` are called `Access Modifiers` in Typescript ...
-description: By default, all properties of a `class` and all methods of a `class` are exposed publicly in Typescript unless otherwise modifed by an `Access Modifier` in Typescript.
+hint: By default, all properties of a `class` and all methods of a `class` are exposed publicly in Typescript unless otherwise modifed by an `Access Modifier` in Typescript.
 repo: Typescript-Lessons-Project 
-ver_date: 11-17-19
+ver_date: 11-20-19
 navigation_weight: 8
 categories: page
 ---
@@ -12,7 +12,7 @@ categories: page
 
 ## Public O Private
 
-{{ page.description}}
+> **Hint**. {{ page.hint }}
 
 By default, all properties of a Class and all methods of a Class are exposed publicly.
 
@@ -75,16 +75,14 @@ private readonly var y = x.charAt(6);
 
 ## Last Subtitle
 
-Place the introducing line of text ie.) the 'tagline' here ...
+More to come ...
 
-**Note**. The above synopsis was derived from an article written by Blank [[2](#BLANK){:.red}].
+***
 
-### Raw Code Block
+**Note**. The above synopsis was derived from an article written by Blank Author [[1](#BLANKAUTHOR){:.red}].
 
-```liquid
-{% raw %}
-Enjoy the successful output!
-{% endraw %}
-```
+1. {:#BLANKAUTHOR}[A Narrative of Psychology by Blank Author, Jan #1999](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:target="_blank"}
+
+***
 
 {% include patreon-link.md %}
